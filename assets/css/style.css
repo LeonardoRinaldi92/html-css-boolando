@@ -18,8 +18,20 @@ nav {
     justify-content: space-between;
 }
 
+.p-relative {
+    position: relative;
+}
+
 .wdth-70 {
     width: 70%;
+}
+
+.wdth-100{
+    width: 100%;
+}
+
+.card-size {
+    width: 32%;
 }
 
 .h30 {
@@ -36,6 +48,10 @@ nav {
 
 .mr0auto {
     margin: 0 auto;
+}
+
+.mr-t70 {
+    margin-top: 70px;
 }
 
 .mr-l5 {
