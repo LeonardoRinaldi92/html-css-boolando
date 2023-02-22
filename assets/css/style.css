@@ -174,11 +174,11 @@ font-size: 22px;
     display: none;
 }
 
-.card-size:hover img {
+.p-relative:hover img {
     display: none;
 }
 
-.card-size:hover img.d-none {
+.p-relative:hover img.d-none {
     display: block;
 }
 
