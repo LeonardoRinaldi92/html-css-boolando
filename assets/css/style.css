@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
 }
 
 nav {
     background-color: rgb(255,105,0);
 }
+
+/* allineamenti */
 
 .flex {
     display: flex;
@@ -21,6 +22,16 @@ nav {
 .p-relative {
     position: relative;
 }
+
+.p-absolute {
+    position: absolute;
+}
+
+.block {
+    display: block;
+}
+
+/* dimensioni */
 
 .wdth-70 {
     width: 70%;
@@ -37,6 +48,8 @@ nav {
 .h30 {
     height: 30px;
 }  
+
+/* margini e padding */
 
 .padd-bot20 {
     padding-bottom: 20px;
@@ -62,14 +75,59 @@ nav {
     margin-right: 5px;
 }
 
-.font20 {
+/* testo */
+.txt-deco-none {
+    text-decoration: none;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.font18 {
     font-size: 18px;
+}
+
+.font35 {
+    font-size: 35px;
 }
 
 .txt-white {
     color: white;
 }
 
+.txt-red {
+    color: red;
+}
+
 .font-bold {
     font-weight: bold;
+}
+
+/* pecette */
+
+.box {
+    padding: 5px 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: rgb(0,128,0);
+}
+
+.white {
+    background-color: white;
+}
+
+.bott-left {
+    bottom: 5%;
+    left: 0;
+}
+
+.top-right {
+    top : 3%;
+    right: 0%;
 }
