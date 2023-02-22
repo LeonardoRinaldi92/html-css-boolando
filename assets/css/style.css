@@ -9,6 +9,10 @@ nav {
     background-color: rgb(255,105,0);
 }
 
+footer {
+    background-color: rgb(26,26,26)    ;
+}
+
 /* allineamenti */
 
 .flex {
@@ -47,12 +51,20 @@ nav {
 
 .h30 {
     height: 30px;
-}  
+}
 
 /* margini e padding */
 
 .padd-bot20 {
     padding-bottom: 20px;
+}
+
+.padd-bot30 {
+    padding-bottom: 30px;
+}
+
+.padd-top30 {
+    padding-top: 30px;
 }
 
 .padd-top20 {
@@ -65,6 +77,14 @@ nav {
 
 .mr-t70 {
     margin-top: 70px;
+}
+
+.mr-b70 {
+    margin-bottom: 70px;
+}
+
+.mr-bot10 {
+    margin-bottom: 10px;
 }
 
 .mr-l5 {
@@ -86,6 +106,9 @@ nav {
 
 .font18 {
     font-size: 18px;
+}
+.font22 {
+font-size: 22px;
 }
 
 .font35 {
