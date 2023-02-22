@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
+.orange {
     background-color: rgb(255,105,0);
 }
 
@@ -31,8 +31,19 @@ footer {
     position: absolute;
 }
 
+.p-fix {
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+}
+
 .block {
     display: block;
+}
+
+.z1 {
+    z-index: 1;
 }
 
 /* dimensioni */
@@ -77,6 +88,10 @@ footer {
 
 .mr-t70 {
     margin-top: 70px;
+}
+
+.mr-t150 {
+    margin-top: 150px;
 }
 
 .mr-b70 {
@@ -153,4 +168,20 @@ font-size: 22px;
 .top-right {
     top : 3%;
     right: 0%;
+}
+
+.d-none {
+    display: none;
+}
+
+.card-size:hover img {
+    display: none;
+}
+
+.card-size:hover img.d-none {
+    display: block;
+}
+
+.heart:hover {
+    color: red;
 }
